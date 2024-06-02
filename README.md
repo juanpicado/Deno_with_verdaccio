@@ -9,6 +9,11 @@ Small example how to install dependencies from a private registry using verdacci
 /// run verdaccio first in another tab
 deno run --allow-env --allow-sys --allow-net --allow-read --allow-write main.ts
 ```
+or 
+
+```bash
+deno task dev 
+```
 
 Deno requires some [permissions](https://docs.deno.com/runtime/manual/basics/permissions) to run verdaccio.
 
