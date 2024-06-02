@@ -3,7 +3,7 @@
     "description": "An example running verdaccio with Deno",
     "type": "module",
     "scripts": {
-      "dev": "deno run --allow-env --allow-sys --allow-net --allow-read --allow-write main.ts"
+      "dev": "deno run --allow-env --allow-sys --allow-net --allow-read --allow-write --allow-run main.ts"
     },
     "dependencies": {
       "verdaccio": "5.31.0"

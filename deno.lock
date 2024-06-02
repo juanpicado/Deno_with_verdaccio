@@ -2,6 +2,7 @@
   "version": "3",
   "packages": {
     "specifiers": {
+      "npm:verdaccio": "npm:verdaccio@5.31.0",
       "npm:verdaccio@5.31.0": "npm:verdaccio@5.31.0"
     },
     "npm": {
