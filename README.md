@@ -9,6 +9,7 @@ Small example how to install dependencies from a private registry using verdacci
 /// run verdaccio first in another tab
 deno run --allow-env --allow-sys --allow-net --allow-read --allow-write main.ts
 ```
+
 or 
 
 ```bash
@@ -22,6 +23,7 @@ Deno requires some [permissions](https://docs.deno.com/runtime/manual/basics/per
 - `--allow-net`: Verdaccio it is a server
 - `--allow-read`: For reading the local cache and configuration
 - `--allow-write`: For the local cache and configuration
+- `--allow-run`: Allow running subprocesses
 
 ```typescript
 import {runServer} from 'verdaccio';
